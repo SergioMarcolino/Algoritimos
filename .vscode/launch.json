@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MediaFacens",
+            "request": "launch",
+            "mainClass": "MediaFacens",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula5",
+            "request": "launch",
+            "mainClass": "Aula5.Aula5",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "JurosSimples",
+            "request": "launch",
+            "mainClass": "JurosSimples",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "AreaQuadrado",
+            "request": "launch",
+            "mainClass": "AreaQuadrado",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Raizcubica",
+            "request": "launch",
+            "mainClass": "Raizcubica",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

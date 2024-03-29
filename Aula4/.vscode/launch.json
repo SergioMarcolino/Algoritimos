@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "JurosSimples",
+            "request": "launch",
+            "mainClass": "JurosSimples",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusFahrenheit",
+            "request": "launch",
+            "mainClass": "CelsiusFahrenheit",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "PerimetroRetangulo",
+            "request": "launch",
+            "mainClass": "PerimetroRetangulo",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "PerimetroQuadrado",
+            "request": "launch",
+            "mainClass": "PerimetroQuadrado",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "AreaDoRetangulo",
+            "request": "launch",
+            "mainClass": "AreaDoRetangulo",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "Raizcubica",
+            "request": "launch",
+            "mainClass": "Raizcubica",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "Aula4",
+            "request": "launch",
+            "mainClass": "Aula4",
+            "projectName": "aulas_7bc69013"
+        },
+        {
+            "type": "java",
+            "name": "Aula4",
+            "request": "launch",
+            "mainClass": "Aula4",
+            "projectName": "Aulas_cd84a4cb"
+        },
+        {
+            "type": "java",
+            "name": "SomarDoisNumeros",
+            "request": "launch",
+            "mainClass": "SomarDoisNumeros",
+            "projectName": "Aulas_cd84a4cb"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
