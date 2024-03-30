@@ -7,9 +7,9 @@ public class Raizcubica {
         System.out.print("Digite um número para calcular a raiz quadrada: ");
         double numero = scanner.nextDouble();
 
-        double raizQuadrada = Math.sqrt(numero);
+        double RaizCubica = Math.cbrt(numero);
 
-        System.out.println("A raiz quadrada de: " + numero + " é: " + raizQuadrada);
+        System.out.println("A raiz quadrada de: " + numero + " é: " + RaizCubica);
 
         scanner.close();
     }
