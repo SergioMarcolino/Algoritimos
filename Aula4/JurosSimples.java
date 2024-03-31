@@ -14,7 +14,7 @@ public class JurosSimples {
          System.out.println("Tempo");
          double tempo = scanner.nextDouble();
 
-         double valor = ((capital * taxa * tempo) /100 );
+         double valor = (capital * taxa * tempo) /100 ;
          System.out.println("valor:" + valor);
 
          scanner.close();
