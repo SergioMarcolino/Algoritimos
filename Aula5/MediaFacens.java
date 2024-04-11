@@ -21,7 +21,7 @@ public class MediaFacens {
     nota = nota + scanner.nextFloat() *Pesoquatro;
 
     Media = (+nota);
-    System.out.println("MédiaFacens: " +Media);
+    System.out.printf("MédiaFacens =  %.2f %n ", +Media);
 
         scanner.close();
     }

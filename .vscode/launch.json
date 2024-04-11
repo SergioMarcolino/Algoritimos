@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula7",
+            "request": "launch",
+            "mainClass": "Aula7",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
             "name": "MediaFacens",
             "request": "launch",
             "mainClass": "MediaFacens",
