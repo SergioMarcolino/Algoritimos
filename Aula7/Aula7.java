@@ -1,43 +1,39 @@
-package Aula7;
 import java.util.Scanner;
 
+
 public class Aula7 {
-   
-
-    public static void main(String[] args) {
+    public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        
-        int c1 = 0;
-        int c2 = 12;
-        int ad1 = 13;
-        int ad2 = 19;
-        int ja1 = 20;
-        int ja2 = 25;
-        int adt1 = 26;
-  
+    float nota, PesoUm = 0.15f, PesoDois = 0.30f, PesoTres = 0.10f, Pesoquatro = 0.45f, Media = 0.0f;
 
-        int idade = 34;
+    System.out.println("Calculo de Média");
+    
+    System.out.println("Nota Ac1");
+    nota = scanner.nextFloat() *PesoUm;
 
-        System.out.println("idade");
-        idade = scanner.nextInt();
+    System.out.println("Nota AC2:");
+    nota = nota + scanner.nextFloat() *PesoDois;
 
-        if (idade >= c1 && idade <= c2) {
-            System.out.println("criancas");
-            
-        }
-        else if (idade >= ad1 && idade <= ad2) {
-            System.out.println("adolescente");
-        }
-        else if (idade >= ja1 && idade <= ja2) {
-            System.out.println("adulto");
-            
-        }
-        else if (idade >= adt1 ) {
-            System.out.println("idoso");
-        }
-        else {
-            System.out.println("idadde invalida");
-        }
+    System.out.println("Nota AC3:");
+    nota = nota + scanner.nextFloat() *PesoTres;
+
+    System.out.println("Nota AC4:");
+    nota = nota + scanner.nextFloat() *Pesoquatro;
+
+    Media = (+nota);
+    System.out.printf("MédiaFacens =  %.2f %n ", +Media);
+
+    System.out.println("Aluno passou de semestre?");
+    if ( Media <= 2) {
+        System.out.println("Reprovado!!!");
+    }
+    else if (Media >= 2.1 && Media <= 4.9) {
+        System.out.println("Precisa fazer a Sub!!!");
+    }
+    else {
+        System.out.println("Aprovado");
+    }
+
         scanner.close();
     }
     

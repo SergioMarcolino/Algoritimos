@@ -23,7 +23,7 @@ public class Aula6 {
     System.out.printf("MédiaFacens =  %.2f %n ", +Media);
 
     System.out.println("A nota é maior que 5?");
-    if (Media >= 5 && nota <= 10) {
+    if (Media >= 5 && Media <= 10) {
         System.out.println("Aprovado");
     }
     else {
