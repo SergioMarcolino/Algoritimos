@@ -1,5 +1,7 @@
 package Aula7;
+
 import java.util.Scanner;
+
 public class Aula7_2 {
     public static void main(String[] args) {
 

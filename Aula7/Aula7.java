@@ -26,7 +26,7 @@ public class Aula7 {
             
         }
         else if (idade >= ad1 && idade <= ad2) {
-            System.out.println("ado");
+            System.out.println("adolescente");
         }
         else if (idade >= ja1 && idade <= ja2) {
             System.out.println("adulto");

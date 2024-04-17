@@ -1,24 +1,36 @@
 import java.util.Scanner;
 
 public class Aula6 {
-
-    public static void main(String[] args) {
-
+    public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        int numero = scanner.nextInt();
+    float nota, PesoUm = 0.15f, PesoDois = 0.30f, PesoTres = 0.10f, Pesoquatro = 0.45f, Media = 0.0f;
 
+    System.out.println("Calculo de Média");
+    
+    System.out.println("Nota Ac1");
+    nota = scanner.nextFloat() *PesoUm;
 
-        if (numero % 2 == 0), (numero % 0<50){
-            System.out.println("eh par");
+    System.out.println("Nota AC2:");
+    nota = nota + scanner.nextFloat() *PesoDois;
 
+    System.out.println("Nota AC3:");
+    nota = nota + scanner.nextFloat() *PesoTres;
 
-            
-            
-        }
-        else {
-            System.out.println("eh impar");
-        }
-        scanner.close();
-     }
+    System.out.println("Nota AC4:");
+    nota = nota + scanner.nextFloat() *Pesoquatro;
 
+    Media = (+nota);
+    System.out.printf("MédiaFacens =  %.2f %n ", +Media);
+
+    System.out.println("A nota é maior que 5?");
+    if (Media >= 5 && nota <= 10) {
+        System.out.println("Aprovado");
     }
+    else {
+        System.out.println("reprovado");
+    }
+
+        scanner.close();
+    }
+    
+}
