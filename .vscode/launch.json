@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula11",
+            "request": "launch",
+            "mainClass": "Aula11.Aula11",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
             "name": "Aula10",
             "request": "launch",
             "mainClass": "Aula10Ac2.Aula10",
