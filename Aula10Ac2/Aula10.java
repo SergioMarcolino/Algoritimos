@@ -19,8 +19,7 @@ public class Aula10 {
             boolean dadosCorretos = false;
 
             while (!dadosCorretos) {
-                tNota = 0.0;
-                tPeso = 0.0;
+
                 for (int i = 1; i <= quantasNotas; i++) {
                     System.out.println("Qual o peso da nota " + i + "?");
                     double peso = scn.nextDouble();
