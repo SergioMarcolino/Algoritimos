@@ -1,4 +1,4 @@
-package Aula7;
+package Aula7Ac2;
 import java.util.Scanner;
 
 
@@ -26,10 +26,10 @@ public class Aula7 {
 
     System.out.println("Aluno passou de semestre?");
     if ( Media <= 2) {
-        System.out.println("Reprovado!!!");
+        System.out.println("Reprovado!");
     }
     else if (Media >= 2.1 && Media <= 4.9) {
-        System.out.println("Precisa fazer a Sub!!!");
+        System.out.println("Precisa fazer a Sub!");
     }
     else {
         System.out.println("Aprovado");

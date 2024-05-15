@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula09",
+            "request": "launch",
+            "mainClass": "Aula09Ac2.Aula09",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula08",
+            "request": "launch",
+            "mainClass": "Aula08Ac2.Aula08",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula10",
+            "request": "launch",
+            "mainClass": "Aula10.Aula10",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "qqq",
+            "request": "launch",
+            "mainClass": "Aula10.qqq",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula10",
+            "request": "launch",
+            "mainClass": "Aula10",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "java",
+            "request": "launch",
+            "mainClass": "java",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula09",
+            "request": "launch",
+            "mainClass": "Aula09.Aula09",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula08copy",
+            "request": "launch",
+            "mainClass": "Aula08.Aula08copy",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula6",
+            "request": "launch",
+            "mainClass": "Aula6.Aula6",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula08",
+            "request": "launch",
+            "mainClass": "Aula08.Aula08",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
             "name": "Aula6",
             "request": "launch",
             "mainClass": "Aula6",

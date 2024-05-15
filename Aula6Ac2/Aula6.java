@@ -1,3 +1,4 @@
+package Aula6Ac2;
 import java.util.Scanner;
 
 public class Aula6 {
