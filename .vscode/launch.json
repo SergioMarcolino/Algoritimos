@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula13Af",
+            "request": "launch",
+            "mainClass": "Aula13Af.Aula13Af",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "kk",
+            "request": "launch",
+            "mainClass": "Aula11Af.kk",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
+            "name": "Aula11Af",
+            "request": "launch",
+            "mainClass": "Aula11Af.Aula11Af",
+            "projectName": "Algoritimos_22b0c608"
+        },
+        {
+            "type": "java",
             "name": "Aula11",
             "request": "launch",
             "mainClass": "Aula11.Aula11",
