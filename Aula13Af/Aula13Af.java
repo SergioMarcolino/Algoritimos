@@ -62,11 +62,11 @@ public class Aula13Af {
             if (resposta == 's' || resposta == 'S') {
                 System.out.println("Digite o nome do aluno:");
                 String nomeConsulta = scn.next();
-                boolean alunoEncontrado = false;
+                boolean achouAluno = false;
 
                 for (int a = 0; a < quantidadeDeAlunos; a++) {
                     if (nomes[a].equalsIgnoreCase(nomeConsulta)) {
-                        alunoEncontrado = true;
+                        achouAluno = true;
                         System.out.println("Notas de " + nomes[a] + ": ");
                         for (int i = 0; i < quantasNotas; i++) {
                             System.out.println("Nota " + (i + 1) + ": " + todasNotas[a][i] + " com peso " + pesos[i]);
@@ -76,7 +76,7 @@ public class Aula13Af {
                     }
                 }
 
-                if (!alunoEncontrado) {
+                if (!achouAluno) {
                     System.out.println("Aluno não encontrado.");
                 }
             } else {
